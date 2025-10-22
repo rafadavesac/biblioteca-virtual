@@ -1,0 +1,37 @@
+1. [ ] O sistema deve apresentar um menu principal, com pelo menos 4 opções (ex: 
+Cadastrar, Listar, Editar, Excluir, Sair). 
+2. [ ] O programa deve permanecer em execução até que o usuário escolha 
+explicitamente Sair. 
+3. [ ] Utilize estruturas de condição (if, elif, else) para tratar as opções do menu. 
+4. [ ] Utilize laços de repetição (while, for) para percorrer dados e manter o menu 
+ativo. 
+5. [ ] Crie e utilize pelo menos 4 funções (ex: cadastrar_item(), listar_itens(), 
+editar_item(), excluir_item()). 
+6. [ ] Os dados devem ser armazenados e lidos de um arquivo na pasta dados/ (ex: 
+dados/cadastros.txt). 
+7. [ ] Cada registro deve conter informações organizadas (pode usar dicionários ou 
+tuplas). 
+8. [ ] Ao iniciar o programa, o sistema deve ler os dados do arquivo e carregá-los 
+em memória. 
+9. [ ] Ao cadastrar, editar ou excluir, o sistema deve atualizar o arquivo 
+automaticamente. 
+10. [ ] O sistema deve registrar logs de execução (ações do usuário, data e hora) em 
+um arquivo chamado log.txt. 
+11. [ ] O log deve registrar, no mínimo: 
+○ Ação realizada (ex: “Cadastro de novo produto”) 
+○ Data e hora (formato DD/MM/YYYY HH:MM:SS) 
+12. [ ] Organize o código em múltiplos arquivos: 
+○ main.py → responsável pelo menu e execução principal. 
+○ funcoes.py → conter as funções do sistema. 
+○ dados/ → pasta onde ficam os arquivos de dados e logs. 
+13. [ ] O sistema deve apresentar mensagens claras para o usuário (ex: “Cadastro 
+realizado com sucesso!”). 
+14. [ ] Utilize tratamento de erros com try e except para evitar que o programa 
+quebre em casos como: 
+○ Entrada inválida do usuário (ex: digitar letras quando o programa espera 
+um número); 
+○ Arquivo inexistente (deve ser criado automaticamente, se não 
+encontrado); 
+○ Erros ao abrir, ler ou escrever arquivos. 
+15. [ ] Personalize o sistema com criatividade (ex: mensagens personalizadas, cores 
+no terminal, contagem de registros, etc.).
